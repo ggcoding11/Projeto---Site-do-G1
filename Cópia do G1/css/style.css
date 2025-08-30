@@ -1,0 +1,63 @@
+/* Formatação geral */
+
+body * {
+    border: 1px solid red;
+}
+
+/* Formatação geral */
+
+/* Rodapé */
+
+.lista-sites, .sites {
+    display: flex;
+}
+
+.lista-sites {
+    justify-content: space-between;
+}
+
+.lista-sites li {
+    list-style: none;
+    font-size: 1em;
+}
+
+.sites li {
+    font-weight: 600;
+}
+
+.conta-globo li a {
+    text-decoration: none;
+    color: black;
+}
+
+.conta-globo li a:hover {
+    color: rgb(0, 119, 255);
+}
+
+.site-globo {
+    color: rgb(42, 119, 219);
+}
+
+.site-g1 {
+    color: red;
+}
+
+.site-gshow {
+    color: rgb(255, 136, 0);
+}
+
+.site-globoplay {
+    color: rgb(236, 12, 68);
+}
+
+.site-g1-jogos {
+    color: brown;
+}
+
+/* Rodapé */
+
+/* Navbar */
+    .navbar {
+        background-color: rgb(219, 30, 30);
+    }
+/* Navbar */
