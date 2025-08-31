@@ -73,7 +73,9 @@
     </div>
 
     <nav class="navbar color-bg-g1">
-      <div class="container-fluid d-flex justify-content-evenly justify-content-md-between justify-content-xl-evenly">
+      <div
+        class="container-fluid d-flex justify-content-evenly justify-content-md-between justify-content-xl-evenly"
+      >
         <button
           class="navbar-toggler d-flex align-items-center gap-1"
           type="button"
@@ -288,7 +290,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <div style="width: 12%;">
+                  <div style="width: 12%">
                     <img
                       src="/Cópia do G1/img/Rede_Globo_logo.svg"
                       alt="logo-globo"
@@ -310,17 +312,15 @@
         </a>
 
         <form class="d-flex" role="search">
-          <div class="input-group">
-            <span class="input-group-text">
-              <i class="bi bi-search"></i>
-            </span>
-            <input
-              type="search"
-              class="form-control"
-              placeholder="Buscar"
-              aria-label="Search"
-            />
-          </div>
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-secondary" type="submit">
+            Buscar
+          </button>
         </form>
       </div>
     </nav>
