@@ -2,10 +2,6 @@
     border: 1px solid red;
 }
 
-#header-links, #header-links * {
-    border: 1px solid rgb(255, 104, 129);
-}
-
 .rodape {
     border: 1px solid blue;
 }
