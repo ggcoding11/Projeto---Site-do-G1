@@ -85,6 +85,8 @@
           <span class="navbar-toggler-icon"></span>
           <span class="fw-semibold d-none d-sm-inline">Menu</span>
         </button>
+
+        <!-- Início do menu Offcanvas -->
         <div
           class="offcanvas offcanvas-start"
           tabindex="-1"
@@ -93,9 +95,10 @@
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <!-- Botão para fechar o menu -->
             <button
               type="button"
-              class="btn-close"
+              class="btn-close d-inline-block d-md-none"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
@@ -103,44 +106,198 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                >
+                  editorias
+                  <i class="bi bi-chevron-right"></i>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between d-flex justify-content-between"
                   href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
+                  >jogos <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >guia de compras <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >carros
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >regiões <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >telejornais <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >globonews <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >blogs e colunas
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >podcasts <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >serviços <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >videos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >webstories
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >especiais publicitários <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+
+              <hr />
+
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >princípios editoriais
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >sobre o g1
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >app g1
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >equipe
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >entre em contato
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >termos de uso do g1</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >política de privacidade
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >esporte <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >entretenimento <i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >receitas
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-3 fw-lighter d-flex justify-content-between"
+                  href="#"
+                  >globo.com
+                </a>
+              </li>
+
+              <hr />
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-person-circle fs-1"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div style="width: 12%;">
+                    <img
+                      src="/Cópia do G1/img/Rede_Globo_logo.svg"
+                      alt="logo-globo"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
               </li>
             </ul>
-            <form class="d-flex mt-3" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
 
