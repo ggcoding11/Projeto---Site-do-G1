@@ -14,4 +14,12 @@
     border: 1px solid orange;
 }
 
+.navbar * {
+    border: 1px solid green;
+}
+
+.color-bg-g1 {
+    background-color: rgb(194, 27, 27);
+}
+
 
