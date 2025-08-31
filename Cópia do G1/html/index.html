@@ -22,7 +22,7 @@
       class="container-xxl d-flex justify-content-between p-2"
       id="header-links"
     >
-      <div class="links d-flex flex-wrap flex-sm-nowrap gap-2">
+      <div class="links d-flex flex-wrap flex-sm-nowrap gap-4">
         <a
           href="https://www.globo.com/"
           class="fw-bold link-underline link-underline-opacity-0"
@@ -75,7 +75,7 @@
     <nav class="navbar color-bg-g1">
       <div class="container-fluid d-flex justify-content-evenly">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler d-flex align-items-center gap-1"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
@@ -83,6 +83,7 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
+          <span class="fw-semibold d-none d-sm-inline">Menu</span>
         </button>
         <div
           class="offcanvas offcanvas-start"
@@ -152,12 +153,17 @@
         </a>
 
         <form class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="BUSCAR"
-            aria-label="Search"
-          />
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="bi bi-search"></i>
+            </span>
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+          </div>
         </form>
       </div>
     </nav>
