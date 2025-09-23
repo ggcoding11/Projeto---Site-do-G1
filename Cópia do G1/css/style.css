@@ -1,10 +1,30 @@
 .color-bg-g1 {
-    background-color: rgb(194, 27, 27);
+  background-color: rgb(194, 27, 27);
 }
 
-.sombra-texto-card{
-    text-shadow: 1px 1px 1px black;
+/* CSS - Notícia */
+
+.sombra-texto-card {
+  text-shadow: 1px 1px 1px black;
 }
 
+.noticia-principal {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
 
+#noticia-1 {
+  background-image: url(../img/bolsonaro.avif);
+}
 
+#noticia-2 {
+  background-image: url(../img/charlie.avif);
+}
+
+#noticia-3 {
+  background-image: url(../img/russia.avif);
+}
+
+/* CSS - Notícia */
