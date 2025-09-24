@@ -16,15 +16,15 @@
 }
 
 #noticia-1 {
-  background-image: url(../img/bolsonaro.avif);
+  background-image: url(../img/noticias/principais/bolsonaro.avif);
 }
 
 #noticia-2 {
-  background-image: url(../img/charlie.avif);
+  background-image: url(../img/noticias/principais/charlie.avif);
 }
 
 #noticia-3 {
-  background-image: url(../img/russia.avif);
+  background-image: url(../img/noticias/principais/russia.avif);
 }
 
 /* CSS - Notícia */
