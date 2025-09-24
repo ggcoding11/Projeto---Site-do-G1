@@ -2,29 +2,41 @@
   background-color: rgb(194, 27, 27);
 }
 
-/* CSS - Notícia */
+/* CSS - Notícia principal */
 
 .sombra-texto-card {
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 0.8px 0.8px 0.8px black;
 }
 
 .noticia-principal {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
 }
 
-#noticia-1 {
-  background-image: url(../img/noticias/principais/bolsonaro.avif);
+.noticia-principal .card-text {
+  font-size: 0.7em;
 }
 
-#noticia-2 {
-  background-image: url(../img/noticias/principais/charlie.avif);
+.noticia-principal .card-body {
+  position: relative;
+  z-index: 1;
 }
 
-#noticia-3 {
-  background-image: url(../img/noticias/principais/russia.avif);
+.noticia-principal img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+
+  transition: transform 0.3s;
 }
 
-/* CSS - Notícia */
+.noticia-principal:hover img {
+  transform: scale(1.1);
+}
+
+/* CSS - Notícia principal*/
