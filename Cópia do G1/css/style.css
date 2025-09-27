@@ -40,3 +40,17 @@
 }
 
 /* CSS - Notícia principal*/
+
+
+/* CSS - Assuntos em alta*/
+
+.assuntos-alta .card-header {
+  background-color: white;
+}
+
+.assuntos-alta .conteudo {
+  font-size: 0.9em;
+  color: rgb(194, 27, 27);
+}
+
+/* CSS - Assuntos em alta*/
