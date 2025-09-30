@@ -45,7 +45,6 @@ body {
 
 /* Notícia principal*/
 
-
 /* Assuntos em alta*/
 
 .assuntos-alta .card-header {
@@ -63,7 +62,6 @@ body {
 }
 
 /* Assuntos em alta*/
-
 
 /* Notícias gerais*/
 
@@ -97,5 +95,10 @@ body {
   }
 }
 
+.post .subnoticia {
+  font-weight: 600;
+  font-size: 0.86em;
+  color: rgb(194, 27, 27);
+}
 
 /* Notícias gerais*/
