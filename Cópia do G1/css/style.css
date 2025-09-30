@@ -2,7 +2,11 @@
   background-color: rgb(194, 27, 27);
 }
 
-/* CSS - Notícia principal */
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+/* Notícia principal */
 
 .sombra-texto-card {
   text-shadow: 0.8px 0.8px 0.8px black;
@@ -39,10 +43,10 @@
   transform: scale(1.1);
 }
 
-/* CSS - Notícia principal*/
+/* Notícia principal*/
 
 
-/* CSS - Assuntos em alta*/
+/* Assuntos em alta*/
 
 .assuntos-alta .card-header {
   background-color: white;
@@ -58,4 +62,30 @@
   color: rgb(194, 27, 27);
 }
 
-/* CSS - Assuntos em alta*/
+/* Assuntos em alta*/
+
+
+/* Notícias gerais*/
+
+.post {
+  border-radius: 1.4%;
+}
+
+.post h3 {
+  font-weight: 550;
+  font-size: 1em;
+}
+
+.post p {
+  font-weight: 650;
+  font-size: 1.2em;
+  color: rgb(194, 27, 27);
+}
+
+.post span {
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+
+/* Notícias gerais*/
