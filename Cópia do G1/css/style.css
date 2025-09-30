@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(245, 245, 245);
 }
 
 /* Notícia principal */
@@ -85,6 +85,16 @@ body {
 .post span {
   font-weight: 200;
   font-size: 0.8em;
+}
+
+.post {
+  background-color: white;
+}
+
+@media (min-width: 576px) {
+  .post {
+    background-color: rgb(245, 245, 245);
+  }
 }
 
 
