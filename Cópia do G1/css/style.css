@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(247, 247, 247);
 }
 
 /* Notícia principal */
@@ -78,7 +78,7 @@ body {
 
 .post p {
   font-weight: 650;
-  font-size: 1.2em;
+  font-size: 1.33em;
   color: rgb(194, 27, 27);
 }
 
@@ -93,7 +93,7 @@ body {
 
 @media (min-width: 576px) {
   .post {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(247, 247, 247);
   }
 }
 
