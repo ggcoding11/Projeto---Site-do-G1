@@ -49,7 +49,12 @@
 }
 
 .assuntos-alta .conteudo {
-  font-size: 0.9em;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.assuntos-alta a {
+  text-decoration: none;
   color: rgb(194, 27, 27);
 }
 
