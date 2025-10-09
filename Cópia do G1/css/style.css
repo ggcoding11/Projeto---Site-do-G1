@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(242, 242, 242);
 }
 
 /* Notícia principal */
@@ -91,7 +91,11 @@ body {
 
 @media (min-width: 576px) {
   .post {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(242, 242, 242);
+  }
+
+  .post img {
+    border-radius: 6%;
   }
 }
 
