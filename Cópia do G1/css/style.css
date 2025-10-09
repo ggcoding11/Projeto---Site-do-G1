@@ -65,10 +65,6 @@ body {
 
 /* Notícias gerais*/
 
-.post {
-  border-radius: 1.4%;
-}
-
 .post h3 {
   font-weight: 550;
   font-size: 1em;
@@ -80,6 +76,11 @@ body {
   color: rgb(194, 27, 27);
 }
 
+.post p:hover {
+  color: rgb(153, 27, 27);
+  cursor: pointer;
+}
+
 .post span {
   font-weight: 200;
   font-size: 0.8em;
@@ -89,9 +90,16 @@ body {
   background-color: white;
 }
 
+@media (max-width: 576px) {
+  .post {
+    border-radius: 6px;
+  }
+}
+
 @media (min-width: 576px) {
   .post {
     background-color: rgb(242, 242, 242);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
   }
 
   .post img {
