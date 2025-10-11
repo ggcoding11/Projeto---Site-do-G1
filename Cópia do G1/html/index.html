@@ -317,9 +317,9 @@
           </div>
 
           <div
-            class="col-12 col-sm-10 col-lg-4 d-flex justify-content-center order-0 order-lg-1 h-100"
+            class="col-12 col-sm-10 col-lg-4 d-flex justify-content-center flex-column gap-4 order-0 order-lg-1 h-100"
           >
-            <div class="assuntos-alta card">
+            <div class="card-lateral card">
               <div class="card-header fw-semibold">Assuntos em alta</div>
 
               <ul class="list-group list-group-flush">
@@ -388,6 +388,52 @@
                   <i class="bi bi-chevron-down"></i>
                 </li>
               </ul>
+            </div>
+
+            <div class="card-lateral previsao-tempo card">
+              <div class="card-header fw-semibold">Previsão do tempo</div>
+
+              <div class="card-body">
+                <h3>Sarandi</h3>
+                <p>Probabilidade de chuva: 63% 1mm</p>
+
+                <div class="d-flex justify-content-between mb-4">
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <img src="../img/previsao-tempo/sun.png" alt="" />
+                    <span class="periodo-dia">manhã</span>
+                  </div>
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <img src="../img/previsao-tempo/bright.png" alt="" />
+                    <span class="periodo-dia">tarde</span>
+                  </div>
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <img src="../img/previsao-tempo/cloudy.png" alt="" />
+                    <span class="periodo-dia">noite</span>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <span class="temp-max">30° max</span>
+                    <span class="temp-min">28° min</span>
+                  </div>
+                </div>
+
+                <span class="fonte-clima"
+                  >Informações meteorológicas fornecidas pelo
+                  <strong>Climatempo</strong></span
+                >
+              </div>
+
+              <div class="card-footer bg-white">
+                <a href="#" class="conteudo">
+                  Veja a previsão do Climatempo
+                  <i class="bi bi-arrow-right-short"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

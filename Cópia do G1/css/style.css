@@ -47,21 +47,59 @@ body {
 
 /* Assuntos em alta*/
 
-.assuntos-alta .card-header {
+.card-lateral .card-header {
   background-color: white;
 }
 
-.assuntos-alta .conteudo {
+.card-lateral .conteudo {
   font-size: 0.8em;
   font-weight: 600;
 }
 
-.assuntos-alta a {
+.card-lateral a {
   text-decoration: none;
   color: rgb(194, 27, 27);
 }
 
 /* Assuntos em alta*/
+
+/* Previsão do tempo */
+.previsao-tempo img {
+  width: 35px;
+  height: 35px;
+}
+
+.previsao-tempo h3 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.previsao-tempo p {
+  color: rgb(70, 70, 70);
+}
+
+.previsao-tempo .periodo-dia,
+.temp-min {
+  font-weight: 100;
+  color: rgba(70, 70, 70, 0.836);
+}
+
+.previsao-tempo .temp-max {
+  font-weight: 500;
+  color: rgb(70, 70, 70);
+}
+
+.previsao-tempo .fonte-clima {
+  font-size: 0.68em;
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  .previsao-tempo .fonte-clima {
+    font-size: 0.58em;
+  }
+}
+/* Previsão do tempo */
 
 /* Notícias gerais*/
 
