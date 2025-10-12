@@ -92,6 +92,7 @@ body {
 .previsao-tempo .fonte-clima {
   font-size: 0.68em;
   font-weight: 400;
+  color: rgba(70, 70, 70, 0.658);
 }
 
 @media (min-width: 576px) {
