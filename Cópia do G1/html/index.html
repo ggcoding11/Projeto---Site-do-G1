@@ -76,7 +76,10 @@
         <div class="row">
           <div class="col-4 d-flex justify-content-start align-items-center">
             <a
-              href="#"
+              data-bs-toggle="offcanvas"
+              href="#menuOffcanvas"
+              role="button"
+              aria-controls="offcanvas"
               class="d-flex justify-content-center align-items-center gap-1 link-underline link-underline-opacity-0"
             >
               <i class="bi bi-list text-white fs-5 d-sm-none"></i>
@@ -85,11 +88,151 @@
 
               <span class="fw-bold text-white d-none d-sm-inline">MENU</span>
             </a>
+
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="menuOffcanvas"
+              aria-labelledby="offcanvas"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="d-flex flex-column gap-3">
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>editorias</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>jogos</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>guia de compras</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>carros</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>regiões</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>telejornais</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>globonews</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>blogs e colunas</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>podcasts</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </div>
+
+                <hr />
+
+                <div class="d-flex flex-column gap-3">
+                  <div>
+                    <a href="#">princípios editoriais</a>
+                  </div>
+
+                  <div>
+                    <a href="#">sobre o g1</a>
+                  </div>
+
+                  <div>
+                    <a href="#">app g1</a>
+                  </div>
+
+                  <div>
+                    <a href="#">equipe</a>
+                  </div>
+
+                  <div>
+                    <a href="#">entre em contato</a>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="footer-menu d-flex flex-column gap-3">
+                  <a href="#" class="d-flex align-items-center gap-2">
+                    <i class="bi bi-person-circle"></i>
+
+                    <div class="d-flex flex-column">
+                      <span class="acesso-conta fw-bold">acesse sua conta</span>
+                      <span>ou cadastre-se grátis</span>
+                    </div>
+                  </a>
+
+                  <div>
+                    <a href="#" class="d-flex align-items-center gap-2">
+                      <img
+                        src="../img/logo-globo-removebg-preview.png"
+                        alt="logo-mini-globo"
+                      />
+
+                      <span>grupo globo</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-4 d-flex justify-content-center align-items-center">
             <a href="https://g1.globo.com/">
               <img
-                src="/Cópia do G1/img/image (1).png"
+                src="/Cópia do G1/img/logo-principal-g1.png"
                 alt="logo-g1"
                 class="img-fluid"
               />

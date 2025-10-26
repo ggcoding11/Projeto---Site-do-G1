@@ -156,3 +156,38 @@ body {
 }
 
 /* Notícias gerais*/
+
+/* Menu Offcanvas */
+
+.offcanvas-body a {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+  font-weight: 50;
+  font-size: 1.2em;
+}
+
+.offcanvas-body i.bi-chevron-right {
+  color: rgb(194, 27, 27);
+  font-weight: bolder;
+}
+
+.offcanvas-body i.bi-person-circle {
+  color: rgb(94, 94, 94);
+  font-size: 1.5em;
+}
+
+.offcanvas .footer-menu {
+  font-size: 0.8em;
+}
+
+.footer-menu .acesso-conta {
+  color: rgb(194, 27, 27);
+}
+
+.footer-menu img {
+  width: 25px;
+  height: 25px;
+  opacity: 60%;
+}
+
+/* Menu Offcanvas */
