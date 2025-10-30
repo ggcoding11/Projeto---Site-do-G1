@@ -1,1 +1,2 @@
 - Parei na limpeza do código e implementação de boas práticas (especificamente do método BEM)
+- Mais especificamente ainda no tratamento dos "post"

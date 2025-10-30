@@ -137,14 +137,19 @@ body {
 
 /* Notícias gerais*/
 
+.post {
+  background-color: white;
+}
+
+.post__categoria {
+  font-weight: 550;
+  font-size: 1em;
+}
+
 .post a {
   text-decoration: none;
 }
 
-.post h3 {
-  font-weight: 550;
-  font-size: 1em;
-}
 
 .post p {
   font-weight: 650;
@@ -159,10 +164,6 @@ body {
 .post span {
   font-weight: 200;
   font-size: 0.8em;
-}
-
-.post {
-  background-color: white;
 }
 
 @media (max-width: 576px) {
