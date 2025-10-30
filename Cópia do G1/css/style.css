@@ -141,27 +141,35 @@ body {
   background-color: white;
 }
 
+.post a {
+  text-decoration: none;
+}
+
 .post__categoria {
   font-weight: 550;
   font-size: 1em;
 }
 
-.post a {
-  text-decoration: none;
+.post__subnoticia {
+  font-weight: 400;
+  font-size: 0.86em;
+  color: rgb(194, 27, 27);
 }
 
+.post__subnoticia:hover {
+  color: rgb(153, 27, 27);
+}
 
-.post p {
+.post__titulo {
   font-weight: 650;
   font-size: 1.33em;
   color: rgb(194, 27, 27);
 }
-
-.post p:hover {
+.post__titulo:hover {
   color: rgb(153, 27, 27);
 }
 
-.post span {
+.post__data {
   font-weight: 200;
   font-size: 0.8em;
 }
@@ -181,12 +189,6 @@ body {
   .post img {
     border-radius: 6%;
   }
-}
-
-.post .subnoticia {
-  font-weight: 400;
-  font-size: 0.86em;
-  color: rgb(194, 27, 27);
 }
 
 /* Notícias gerais*/

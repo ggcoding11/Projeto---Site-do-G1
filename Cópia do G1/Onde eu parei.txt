@@ -1,2 +1,3 @@
-- Parei na limpeza do código e implementação de boas práticas (especificamente do método BEM)
-- Mais especificamente ainda no tratamento dos "post"
+- Terminei a limpeza do código
+- Agora eu preciso anotar as dicas de limpeza no meu caderno, então pergunte ao chat
+sobre as regras que vimos e algumas outras que seriam legais para aprender
