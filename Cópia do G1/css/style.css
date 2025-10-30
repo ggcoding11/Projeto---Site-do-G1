@@ -6,6 +6,39 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
+/* Header de links */
+
+#header-links #link-g1 {
+  color: red;
+}
+
+#header-links #link-ge {
+  color: green;
+}
+
+#header-links #link-gshow {
+  color: rgb(255, 187, 0);
+}
+
+#header-links #link-globoplay {
+  color: rgb(221, 25, 74);
+}
+
+#header-links #link-jogos {
+  color: brown;
+}
+
+#header-links .conta-globo a {
+  color: black;
+  text-decoration: none;
+}
+
+#header-links .conta-globo a:hover {
+  color: rgb(52, 145, 207);
+}
+
+/* Header de links */
+
 /* Notícia principal */
 
 .sombra-texto-card {
