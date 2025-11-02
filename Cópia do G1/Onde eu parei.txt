@@ -1,3 +1,2 @@
-- Terminei a limpeza do código
-- Agora eu preciso anotar as dicas de limpeza no meu caderno, então pergunte ao chat
-sobre as regras que vimos e algumas outras que seriam legais para aprender
+- Continue a centralizar o gráfico no container
+- Depois, tente adicionar mais posts e colocar um footer, se ainda der tempo

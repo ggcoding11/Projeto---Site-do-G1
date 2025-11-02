@@ -135,6 +135,14 @@ body {
 }
 /* Previsão do tempo */
 
+/* Economia */
+  .economia .table-responsive {
+    font-size: 0.8em;
+  }
+
+/* Economia */
+
+
 /* Notícias gerais*/
 
 .post {
