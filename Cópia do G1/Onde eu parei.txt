@@ -1,2 +1,1 @@
-- Continue a centralizar o gráfico no container
 - Depois, tente adicionar mais posts e colocar um footer, se ainda der tempo

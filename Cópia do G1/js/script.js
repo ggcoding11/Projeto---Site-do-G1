@@ -21,7 +21,16 @@ const tabela = new Chart(canvas, {
     plugins: {
       title: {
         display: true,
-        text: "IBOVESPA",
+        text: "IBOVESPA (Variação em tempo real)",
+        align: "start",
+        font: {
+          size: 14,
+          weight: "bold",
+        },
+        padding: {
+          top: 10,
+          bottom: 20,
+        },
       },
       legend: {
         display: false,
