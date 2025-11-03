@@ -1,5 +1,5 @@
 .color-bg-g1 {
-  background-color: rgb(194, 27, 27);
+  background-color: rgb(192, 24, 18);
 }
 
 body {
@@ -137,12 +137,11 @@ body {
 
 /* Economia */
 
-  .economia .table-responsive {
-    font-size: 0.8em;
-  }
+.economia .table-responsive {
+  font-size: 0.8em;
+}
 
 /* Economia */
-
 
 /* Notícias gerais*/
 
@@ -236,3 +235,27 @@ body {
 }
 
 /* Menu Offcanvas */
+
+/* Rodapé da página */
+.rodape .logo-g1-footer {
+  width: 120px;
+}
+
+.rodape .copyright {
+  font-size: 0.6em;
+}
+
+.rodape .lista-opcoes {
+  font-size: 0.7em;
+}
+
+.rodape .lista-opcoes ul {
+  list-style: none;
+}
+
+.rodape .lista-opcoes ul li {
+  border-right: 1px solid rgba(255, 255, 255, 0.322);
+  padding-right: 5px;
+}
+
+/* Rodapé da página */
