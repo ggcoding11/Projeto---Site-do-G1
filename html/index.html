@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>g1 - O portal de notícias da Globo</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <div
+      class="container-xxl d-flex justify-content-between p-2"
+      id="header-links"
+    >
+      <div class="links text-nowrap overflow-auto">
+        <a
+          href="https://www.globo.com/"
+          class="fw-bold link-underline link-underline-opacity-0 me-2"
+          >globo.com</a
+        >
+        <a
+          href="https://g1.globo.com/"
+          class="fw-bold link-underline link-underline-opacity-0 me-2"
+          id="link-g1"
+          >g1</a
+        >
+        <a
+          href="https://ge.globo.com/"
+          class="fw-bold link-underline link-underline-opacity-0 me-2"
+          id="link-ge"
+          >ge</a
+        >
+        <a
+          href="https://gshow.globo.com/"
+          class="fw-bold link-underline link-underline-opacity-0 me-2"
+          id="link-gshow"
+          >gshow</a
+        >
+        <a
+          href="https://globoplay.globo.com/?origemId=92434"
+          class="fw-bold link-underline link-underline-opacity-0 me-2"
+          id="link-globoplay"
+          >globoplay</a
+        >
+        <a
+          href="https://g1.globo.com/jogos/"
+          class="fw-bold link-underline link-underline-opacity-0 me-2"
+          id="link-jogos"
+          >g1 jogos</a
+        >
+      </div>
+      <div class="conta-globo d-flex d-none d-xl-block">
+        <a
+          href="https://authx.globoid.globo.com/6870/login?url=https%3A%2F%2Fgoidc.globo.com%2Fauth%2Frealms%2Fglobo.com%2Fprotocol%2Fopenid-connect%2Fconfirm%3Fclient_id%3Dbarra%40apps.globoid%26response_type%3Dcode%26state%3D94c3c75f-f2cf-41a1-8d00-4058558e8cde%26tab_id%3DZzgyVFzJrsU%26code_challenge%3DiRBgPJ2MgMyqtok74sR8ebLy8kAN3I-sPIL_k9WExSA%26redirect_uri%3Dhttps%3A%2F%2Fg1.globo.com%2Flogin-callback.ghtml%26prompt%3Dnone%26scope%3Dopenid+profile%26response_mode%3Dfragment%26nonce%3D9908b987-7864-4e28-9a99-336f5221bb27%26code_challenge_method%3DS256"
+          class="fw-semibold link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+        >
+          <i class="bi bi-person"></i> Conta Globo
+        </a>
+      </div>
+    </div>
+
+    <header class="color-bg-g1 p-2 sticky-lg-top">
+      <div class="container-xxl">
+        <div class="row">
+          <div class="col-4 d-flex justify-content-start align-items-center">
+            <a
+              data-bs-toggle="offcanvas"
+              href="#menuOffcanvas"
+              role="button"
+              aria-controls="offcanvas"
+              class="d-flex justify-content-center align-items-center gap-1 link-underline link-underline-opacity-0"
+            >
+              <i class="bi bi-list text-white fs-5 d-sm-none"></i>
+
+              <i class="bi bi-list text-white fs-3 d-none d-sm-inline"></i>
+
+              <span class="fw-bold text-white d-none d-sm-inline">MENU</span>
+            </a>
+
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="menuOffcanvas"
+              aria-labelledby="offcanvas"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="d-flex flex-column gap-3">
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>editorias</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>jogos</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>guia de compras</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>carros</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>regiões</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>telejornais</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>globonews</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>blogs e colunas</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <span>podcasts</span>
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </div>
+
+                <hr />
+
+                <div class="d-flex flex-column gap-3">
+                  <div>
+                    <a href="#">princípios editoriais</a>
+                  </div>
+
+                  <div>
+                    <a href="#">sobre o g1</a>
+                  </div>
+
+                  <div>
+                    <a href="#">app g1</a>
+                  </div>
+
+                  <div>
+                    <a href="#">equipe</a>
+                  </div>
+
+                  <div>
+                    <a href="#">entre em contato</a>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="footer-menu d-flex flex-column gap-3">
+                  <a href="#" class="d-flex align-items-center gap-2">
+                    <i class="bi bi-person-circle"></i>
+
+                    <div class="d-flex flex-column">
+                      <span class="acesso-conta fw-bold">acesse sua conta</span>
+                      <span>ou cadastre-se grátis</span>
+                    </div>
+                  </a>
+
+                  <div>
+                    <a href="#" class="d-flex align-items-center gap-2">
+                      <img
+                        src="../img/logo-globo-removebg-preview.png"
+                        alt="logo-mini-globo"
+                      />
+
+                      <span>grupo globo</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex justify-content-center align-items-center">
+            <a href="https://g1.globo.com/">
+              <img
+                src="../img/logo-principal-g1.png"
+                alt="logo-g1"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a href="#">
+              <i class="bi bi-search text-white d-none d-sm-inline fs-3"></i>
+
+              <i class="bi bi-search text-white fs-6 d-sm-none"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-lg mt-4" id="noticias-principais">
+      <div
+        class="row d-flex justify-content-center d-none d-sm-flex"
+        style="height: 380px"
+      >
+        <div class="col-12 col-lg-7 d-none d-sm-block">
+          <div class="noticia-principal card h-100 text-white">
+            <img
+              src="../img/noticias/principais/bolsonaro.avif"
+              alt="noticia-1"
+            />
+
+            <div class="card-body d-flex flex-column justify-content-end">
+              <h4 class="card-title fw-bolder sombra-texto-card">
+                Condenado a 27 anos de prisão: entenda o que acontece agora com
+                Bolsonaro
+              </h4>
+              <p class="card-text sombra-texto-card fw-semibold">
+                Em julgamento histórico, STF puniu pela 1°vez um ex-presidente
+                por tentativa de golpe de Estado.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 d-none d-lg-block">
+          <div class="d-flex flex-column h-100 gap-2">
+            <div class="noticia-principal card h-100 text-white">
+              <img
+                src="../img/noticias/principais/charlie.avif"
+                alt="noticia-2"
+              />
+
+              <div class="card-body d-flex flex-column justify-content-end">
+                <h6 class="card-title fw-bolder sombra-texto-card">
+                  VÍDEO: mostra suspeito de matar Charlie Kirk fugindo após
+                  pular de telhado de universidade
+                </h6>
+                <p class="card-text sombra-texto-card fw-semibold">
+                  Buscas por assassino entram no 3° dia: veja o que se sabe
+                </p>
+              </div>
+            </div>
+
+            <div class="noticia-principal card h-100 text-white">
+              <img
+                src="../img/noticias/principais/russia.avif"
+                alt="noticia-3"
+              />
+              <div class="card-body d-flex flex-column justify-content-end">
+                <h6 class="card-title fw-bolder sombra-texto-card">
+                  Crise dos drones: Rússia faz exercícios militares, e Polônia
+                  fecha fronteira
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-lg" id="conteudo-geral">
+        <div class="row d-flex justify-content-center mt-4 gy-4">
+          <div class="col-12 col-lg-8 order-1 order-lg-0">
+            <div class="post mb-4">
+              <div class="row">
+                <div
+                  class="col-12 col-sm-5 order-1 order-sm-0 d-flex align-items-center justify-content-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../img/noticias/gerais/n1.avif"
+                      alt="noticia-geral-1"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="col-12 col-sm-7 order-0 order-sm-1">
+                  <div class="row p-3">
+                    <h3 class="post__categoria">Mercado de trabalho</h3>
+
+                    <a href="#">
+                      <p class="post__titulo">
+                        Desemprego fica em 5,6% em agosto e repete mínima
+                        histórica
+                      </p>
+                    </a>
+
+                    <a href="#">
+                      <p class="post__subnoticia">
+                        Maior índice desde 2007, segundo o IBGE
+                      </p>
+                    </a>
+
+                    <span class="post__data">Há 1 hora - Em Economia</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post mb-4">
+              <div class="row">
+                <div
+                  class="col-12 col-sm-5 order-1 order-sm-0 d-flex align-items-center justify-content-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../img/noticias/gerais/n2.avif"
+                      alt="noticia-geral-2"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="col-12 col-sm-7 order-0 order-sm-1">
+                  <div class="row p-3">
+                    <h3 class="post__categoria">Romancista húngaro</h3>
+
+                    <a href="#">
+                      <p class="post__titulo">
+                        Como é 'Sátántangó', única obra do vencedor do Nobel
+                        disponível em português
+                      </p>
+                    </a>
+
+                    <a href="#">
+                      <p class="post__subnoticia">
+                        Trump quer Nobel da Paz. Será que ele tem chances?
+                      </p>
+                    </a>
+
+                    <span class="post__data"
+                      >Há 31 minutos - Em Pop & Arte</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post mb-4">
+              <div class="row">
+                <div
+                  class="col-12 col-sm-5 order-1 order-sm-0 d-flex align-items-center justify-content-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../img/noticias/gerais/n3.avif"
+                      alt="noticia-geral-3"
+                      class="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div class="col-12 col-sm-7 order-0 order-sm-1">
+                  <div class="row p-3">
+                    <h3 class="post__categoria">Conflito em Gaza</h3>
+
+                    <a href="#">
+                      <p class="post__titulo">
+                        Israel e Hamas fecham acordo de paz: saiba o que
+                        acontece agora
+                      </p>
+                    </a>
+
+                    <a href="#">
+                      <p class="post__subnoticia">
+                        Força-tarefa ajudará Hamas a localizar corpos de reféns
+                      </p>
+                    </a>
+
+                    <span class="post__data">Há 9 horas - Em Mundo</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post mb-4">
+              <div class="row">
+                <div
+                  class="col-12 col-sm-5 order-1 order-sm-0 d-flex align-items-center justify-content-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../img/noticias/gerais/n4.avif"
+                      alt="noticia-geral-4"
+                      class="img-fluid rounded"
+                    />
+                  </a>
+                </div>
+                <div class="col-12 col-sm-7 order-0 order-sm-1">
+                  <div class="row p-3">
+                    <h3 class="post__categoria">Economia</h3>
+
+                    <a href="#">
+                      <p class="post__titulo">
+                        IPCA: após deflação em agosto, preços sobem 0,48% em
+                        setembro
+                      </p>
+                    </a>
+
+                    <a href="#">
+                      <p class="post__subnoticia">
+                        Dólar abre em meio à expectativa pelo IPCA
+                      </p>
+                    </a>
+
+                    <span class="post__data">Há 24 minutos - Em Economia</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post mb-4">
+              <div class="row">
+                <div
+                  class="col-12 col-sm-5 order-1 order-sm-0 d-flex align-items-center justify-content-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../img/noticias/gerais/n5.avif"
+                      alt="noticia-geral-5"
+                      class="img-fluid rounded"
+                    />
+                  </a>
+                </div>
+                <div class="col-12 col-sm-7 order-0 order-sm-1">
+                  <div class="row p-3">
+                    <a href="#">
+                      <p class="post__titulo">
+                        Tiroteio e socorro a ferido: imagens mostram detalhes de
+                        megaoperação
+                      </p>
+                    </a>
+
+                    <a href="#">
+                      <p class="post__subnoticia">
+                        CV espalhou câmeras para monitorar movimentação policial
+                      </p>
+                    </a>
+
+                    <span class="post__data"
+                      >Há 15 horas - Em Rio de Janeiro</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post mb-4">
+              <div class="row">
+                <div
+                  class="col-12 col-sm-5 order-1 order-sm-0 d-flex align-items-center justify-content-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../img/noticias/gerais/n6.avif"
+                      alt="noticia-geral-6"
+                      class="img-fluid rounded"
+                    />
+                  </a>
+                </div>
+                <div class="col-12 col-sm-7 order-0 order-sm-1">
+                  <div class="row p-3">
+                    <a href="#">
+                      <p class="post__titulo">
+                        Polícia apreendeu 7 modelos de fuzis diferentes no Rio;
+                        veja detalhes
+                      </p>
+                    </a>
+
+                    <a href="#">
+                      <p class="post__subnoticia">
+                        'Caldeirão do Inferno': entenda como surgiu o Comando
+                        Vermelho
+                      </p>
+                    </a>
+
+                    <span class="post__data"
+                      >Há 13 horas - Em Rio de Janeiro</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-sm-10 col-lg-4 d-flex justify-content-center flex-column gap-4 order-0 order-lg-1 h-100"
+          >
+            <div class="card-lateral card">
+              <div class="card-header fw-semibold">Assuntos em alta</div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="#">
+                    <div class="row d-flex p-2">
+                      <div class="conteudo col-8">
+                        Em conversas reservadas, Tarcísio avisa que está fora da
+                        disputa presidencial em 2026, diante de uma direita
+                        fragmentada
+                      </div>
+                      <div
+                        class="col-4 d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="../img/noticias/assuntos principais/assuntos_1.avif"
+                          alt=""
+                          class="img-fluid rounded-3"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">
+                    <div class="row d-flex p-2">
+                      <div class="conteudo col-8">
+                        Vilarejo do Ceará vira 'território-fantasma' após
+                        expulsão de moradores por facções
+                      </div>
+                      <div
+                        class="col-4 d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="../img/noticias/assuntos principais/assuntos_2.avif"
+                          alt=""
+                          class="img-fluid rounded-3"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">
+                    <div class="row d-flex p-2">
+                      <div class="conteudo col-8">
+                        O que se sabe sobre a condenação do humorista Cris
+                        Pereira por estupro de vulnerável no RS
+                      </div>
+                      <div
+                        class="col-4 d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="../img/noticias/assuntos principais/assuntos_3.avif"
+                          alt=""
+                          class="img-fluid rounded-3"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="list-group-item conteudo">
+                  <a href="#">
+                    <span>Mais conteúdos recomendados</span>
+                  </a>
+                  <i class="bi bi-chevron-down"></i>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-lateral previsao-tempo card">
+              <div class="card-header fw-semibold">Previsão do tempo</div>
+
+              <div class="card-body">
+                <h3>Sarandi</h3>
+                <p>Probabilidade de chuva: 63% 1mm</p>
+
+                <div class="d-flex justify-content-between mb-4">
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <img src="../img/previsao-tempo/sun.png" alt="" />
+                    <span class="periodo-dia">manhã</span>
+                  </div>
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <img src="../img/previsao-tempo/bright.png" alt="" />
+                    <span class="periodo-dia">tarde</span>
+                  </div>
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <img src="../img/previsao-tempo/cloudy.png" alt="" />
+                    <span class="periodo-dia">noite</span>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <span class="temp-max">30° max</span>
+                    <span class="temp-min">28° min</span>
+                  </div>
+                </div>
+
+                <span class="fonte-clima"
+                  >Informações meteorológicas fornecidas pelo
+                  <strong>Climatempo</strong></span
+                >
+              </div>
+
+              <div class="card-footer bg-white">
+                <a href="#" class="conteudo">
+                  Veja a previsão do Climatempo
+                  <i class="bi bi-arrow-right-short"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="card-lateral economia card">
+              <div class="card-header fw-semibold">Economia</div>
+
+              <div class="card-body">
+                <div
+                  class="container-grafico d-flex justify-content-center align-items-center"
+                >
+                  <canvas id="graficoEconomia"></canvas>
+                </div>
+
+                <div class="table-responsive">
+                  <table class="table table-striped economia-tabela">
+                    <thead class="titulos-colunas">
+                      <th>Moeda</th>
+                      <th>Compra</th>
+                      <th>Venda</th>
+                      <th>Variação</th>
+                    </thead>
+
+                    <tbody>
+                      <tr class="dolar-comercial">
+                        <td>Dólar Comercial</td>
+                        <td>5,3792</td>
+                        <td>5,3798</td>
+                        <td class="text-danger">-0,01%</td>
+                      </tr>
+                      <tr class="euro">
+                        <td>Euro</td>
+                        <td>5,8776</td>
+                        <td>5,8784</td>
+                        <td class="text-success">0,03%</td>
+                      </tr>
+                      <tr class="libra">
+                        <td>Libra Esterlina</td>
+                        <td>6,7173</td>
+                        <td>6,7183</td>
+                        <td class="text-success">0,05%</td>
+                      </tr>
+                      <tr class="iene">
+                        <td>Iene</td>
+                        <td>0,0373</td>
+                        <td>0,0374</td>
+                        <td class="text-success">0,11%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="card-footer bg-white"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="rodape">
+      <div class="container-fluid color-bg-g1">
+        <div class="row">
+          <div class="col-12 d-flex flex-column">
+            <img
+              src="../img/logo-principal-g1.png"
+              class="logo-g1-footer"
+              alt="logo-g1-footer"
+            />
+
+            <span class="text-white ultimas-noticias">últimas notícias</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <span class="text-white copyright">
+              &copy; Copyright 2000-2025 Globo Comunicação e Participações S.A.
+            </span>
+          </div>
+          <div class="col-6 d-none d-xl-block">
+            <div class="lista-opcoes text-white d-flex justify-content-end">
+              <ul class="d-flex gap-2">
+                <li>princípios editoriais</li>
+                <li>política de privacidade</li>
+                <li>minha conta</li>
+                <li>anuncie conosco</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
